@@ -1,0 +1,16 @@
+# QC1-Qual é o título de uma determinada obra?
+# Resposta esperada: Ciência da Informação"
+# Resposta esperada: A Hora Veterinária"
+# Resposta esperada: Wines & Vines Yearbook of the Wine Industry"
+# Resposta esperada: Wine Review (Los Angeles)"
+# Resposta esperada: BIB: revista brasileira de informação bibliográfica em Ciências Sociais"
+# Resposta esperada: Eine Kleine Nachtmusik"
+# Resposta esperada: Bibliografia Brasileira de Documentação."
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?tituloProprio WHERE {
+?obra a ex:Obra ;
+ex:tituloProprio ?tituloProprio .
+}

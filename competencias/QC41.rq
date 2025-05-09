@@ -1,0 +1,11 @@
+# QC41- Qual é a sigla da biblioteca?
+# Resposta esperada: LQS"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?Sigla_Biblioteca WHERE {
+?bibloteca a ex:Biblioteca ;
+ex:denominacao ?Denominacao ;
+ex:sigla ?Sigla_Biblioteca ;
+}

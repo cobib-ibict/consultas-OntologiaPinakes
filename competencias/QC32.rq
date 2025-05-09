@@ -1,0 +1,13 @@
+# QC32- Qual é o referenciador?
+# Resposta esperada: Library & information science abstracts"
+# Resposta esperada: Information science abstracts"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?referenciador WHERE {
+?obra a ex:Obra ;
+ex:tituloProprio ?titulo ;
+ex:indexedBy ?indexador .
+?indexador ex:nome ?referenciador .
+}

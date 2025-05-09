@@ -1,0 +1,10 @@
+# QC11-Qual é o status do registro de uma publicação seriada
+# Resposta esperada: Alterado"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?status WHERE {
+?obra a ex:Obra ;
+ex:tituloProprio ?titulo ;                                               ex:statusDoRegistro ?status .
+}

@@ -1,0 +1,14 @@
+# 
+QC35 - Quais são os termos livres atribuídos a uma obra?
+
+# Resposta esperada: CI"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?termo_livre WHERE {
+?titulo a ex:Obra;
+ex:tituloProprio ?obra;
+ex:hasFreeTerm ?nome_termo_livre .
+?nome_termo_livre ex:nome ?termo_livre
+}

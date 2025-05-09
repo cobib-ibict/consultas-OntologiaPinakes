@@ -1,0 +1,13 @@
+# QC23-Qual é o meio físico de publicação de uma obra?
+# Resposta esperada: Online (Eletrônico)"
+# Resposta esperada: Impresso"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?meio_fisico WHERE {
+?obra a ex:Obra;
+ex:hasISSN ?codigo .
+?codigo ex:hasSupport ?issn .
+?issn ex:nome  ?meio_fisico .
+}

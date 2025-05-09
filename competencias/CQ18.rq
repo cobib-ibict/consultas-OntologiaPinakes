@@ -1,0 +1,11 @@
+# CQ18 - Qual o ano inicial de uma obra?
+# Resposta esperada: 1972"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?ano_inicial WHERE {
+?obra a ex:Obra ;
+ex:tituloProprio ?titulo ;
+ex:anoInicial ?ano_inicial .
+}

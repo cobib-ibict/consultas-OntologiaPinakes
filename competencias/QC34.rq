@@ -1,0 +1,15 @@
+# QC34 - Qual é a sigla do Idioma de uma obra? 
+
+# Resposta esperada: en"
+# Resposta esperada: pt"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?sigla WHERE {
+?titulo a ex:Obra ;
+ex:tituloProprio ?obra ;
+ex:hasPublicationLanguage ?idioma .
+?idioma a ex:Idioma ;
+ex:sigla?sigla .
+}

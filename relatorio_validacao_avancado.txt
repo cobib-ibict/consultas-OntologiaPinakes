@@ -1,0 +1,304 @@
+RELATÓRIO DE VALIDAÇÃO AVANÇADO
+================================================================================
+
+CQ18:
+Status: ✅ CORRETO
+Esperado: 1972
+Obtido: 1972
+--------------------------------------------------------------------------------
+CQ19:
+Status: ✅ CORRETO
+Esperado: 2015
+Obtido: 2015
+--------------------------------------------------------------------------------
+CQ6:
+Status: ✅ CORRETO
+Esperado: Científico
+Obtido: Científico
+--------------------------------------------------------------------------------
+QC1:
+Status: ✅ CORRETO
+Esperado: Ciência da Informação; A Hora Veterinária; Wines & Vines Yearbook of the Wine Industry; Wine Review (Los Angeles); BIB: revista brasileira de informação bibliográfica em Ciências Sociais; Eine Kleine Nachtmusik; Bibliografia Brasileira de Documentação.
+Obtido: Bibliografia Brasileira de Documentação.; BIB: revista brasileira de informação bibliográfica em Ciências Sociais; Eine Kleine Nachtmusik; Ciência da Informação; Wine Review (Los Angeles); A Hora Veterinária; Wines & Vines Yearbook of the Wine Industry
+--------------------------------------------------------------------------------
+QC10:
+Status: ✅ CORRETO
+Esperado: Descontinuada (versão impressa)
+Obtido: Descontinuada (versão impressa)
+--------------------------------------------------------------------------------
+QC11:
+Status: ✅ CORRETO
+Esperado: Alterado
+Obtido: Alterado
+--------------------------------------------------------------------------------
+QC12:
+Status: ✅ CORRETO
+Esperado: Material textual
+Obtido: Material textual
+--------------------------------------------------------------------------------
+QC13:
+Status: ✅ CORRETO
+Esperado: Periódico
+Obtido: Periódico
+--------------------------------------------------------------------------------
+QC14:
+Status: ✅ CORRETO
+Esperado: Nível Central
+Obtido: Nível Central
+--------------------------------------------------------------------------------
+QC15:
+Status: ✅ CORRETO
+Esperado: 0
+Obtido: 0
+--------------------------------------------------------------------------------
+QC16:
+Status: ✅ CORRETO
+Esperado: AACR2; Dublin Core; MARC 21
+Obtido: MARC 21; AACR2; Dublin Core
+--------------------------------------------------------------------------------
+QC17:
+Status: ✅ CORRETO
+Esperado: 0100-1965 (ISSN-L)
+Obtido: 0100-1965 (ISSN-L)
+--------------------------------------------------------------------------------
+QC2:
+Status: ✅ CORRETO
+Esperado: Ciência da Informação (Online); Bibliografia Brasileira de Ciência da Informação
+Obtido: Bibliografia Brasileira de Ciência da Informação; Ciência da Informação (Online)
+--------------------------------------------------------------------------------
+QC20:
+Status: ✅ CORRETO
+Esperado: Lydia De Queiroz Sambaquy
+Obtido: Lydia De Queiroz Sambaquy
+--------------------------------------------------------------------------------
+QC21:
+Status: ✅ CORRETO
+Esperado: 1972 1(1-2); 1973 2(1-2); 1974 3(1-2); 1975 4(1-2); 1976 5(1/2); 1977 6(1- 2); 1978 7(1-2); 1979 8(1-2); 1980 9(1/2); 1981 10(1-2); 1982 11(1-2); 1983 12(1 -2); 1984 13(1-2); 1985 14(1-2); 1986 15(1-2); 1987 16(1-2); 1988 17(1- 2); 1989 18(1-2); 1990 19(1-2); 1991 20(1-2); 1992 21(1-3); 1993 22(1-3); 1994 23(1-3); 1 995 24(1-3); 1996 25(1-3); 1997 26(1-3); 1998 27(1-3); 1999 28(1-3); 2000 29(1-3 ); 2001 30(1-3); 2002 31(1-3); 2003 32(1-3); 2004 33(1-3); 2005 34(1-3); 2006 35 (1-3); 2007 36(1-3); 2008 37(1-3); 2009 38(1-3); 2010 39(1-3); 2011 40(1- 3); 201 5 44(1)
+Obtido: 1972 1(1-2); 1973 2(1-2); 1974 3(1-2); 1975 4(1-2); 1976 5(1/2); 1977 6(1- 2); 1978 7(1-2); 1979 8(1-2); 1980 9(1/2); 1981 10(1-2); 1982 11(1-2); 1983 12(1 -2); 1984 13(1-2); 1985 14(1-2); 1986 15(1-2); 1987 16(1-2); 1988 17(1- 2); 1989 18(1-2); 1990 19(1-2); 1991 20(1-2); 1992 21(1-3); 1993 22(1-3); 1994 23(1-3); 1 995 24(1-3); 1996 25(1-3); 1997 26(1-3); 1998 27(1-3); 1999 28(1-3); 2000 29(1-3 ); 2001 30(1-3); 2002 31(1-3); 2003 32(1-3); 2004 33(1-3); 2005 34(1-3); 2006 35 (1-3); 2007 36(1-3); 2008 37(1-3); 2009 38(1-3); 2010 39(1-3); 2011 40(1- 3); 201 5 44(1)
+--------------------------------------------------------------------------------
+QC22:
+Status: ✅ CORRETO
+Esperado: XML
+Obtido: XML
+--------------------------------------------------------------------------------
+QC23:
+Status: ✅ CORRETO
+Esperado: Online (Eletrônico); Impresso
+Obtido: Impresso; Online (Eletrônico)
+--------------------------------------------------------------------------------
+QC24:
+Status: ✅ CORRETO
+Esperado: 0100-1965
+Obtido: 0096-8471; 0101-9163; 0100-1965; 0271-5694
+--------------------------------------------------------------------------------
+QC25:
+Status: ✅ CORRETO
+Esperado: Ciên. Inf.
+Obtido: Ciên. Inf.
+--------------------------------------------------------------------------------
+QC26:
+Status: ✅ CORRETO
+Esperado: Ciência da Informação
+Obtido: Ciência da Informação
+--------------------------------------------------------------------------------
+QC27:
+Status: ✅ CORRETO
+Esperado: 60700010
+Obtido: 60700010
+--------------------------------------------------------------------------------
+QC28:
+Status: ✅ CORRETO
+Esperado: Disponível online, em texto integral de 1995
+- presente, no portal de periódicos da CAPES
+Obtido: Publicação impressa suspensa; Disponível online, em texto integral de 1995
+- presente, no portal de periódicos da CAPES
+--------------------------------------------------------------------------------
+QC29:
+Status: ✅ CORRETO
+Esperado: Tem suplemento: Wines & Vines Annual Directory (ISSN 0084-0351).
+Obtido: Tem suplemento: Wines & Vines Annual Directory (ISSN 0084-0351).
+--------------------------------------------------------------------------------
+QC3:
+Status: ✅ CORRETO
+Esperado: Periódico
+Obtido: Periódico
+--------------------------------------------------------------------------------
+QC30:
+Status: ✅ CORRETO
+Esperado: Absorveu: Wine East (ISSN 0892-662X).
+Obtido: Absorveu: Wine East (ISSN 0892-662X).
+--------------------------------------------------------------------------------
+QC31:
+Status: ✅ CORRETO
+Esperado: 6125.
+Obtido: 6125.
+--------------------------------------------------------------------------------
+QC32:
+Status: ✅ CORRETO
+Esperado: Library & information science abstracts; Information science abstracts
+Obtido: Information science abstracts; Library & information science abstracts
+--------------------------------------------------------------------------------
+QC33:
+Status: ✅ CORRETO
+Esperado: português; inglês
+Obtido: inglês; português
+--------------------------------------------------------------------------------
+QC34:
+Status: ✅ CORRETO
+Esperado: en; pt
+Obtido: en; pt
+--------------------------------------------------------------------------------
+QC35:
+Status: ✅ CORRETO
+Esperado: CI
+Obtido: CI
+--------------------------------------------------------------------------------
+QC36:
+Status: ✅ CORRETO
+Esperado: Organização da informação
+Obtido: Organização da informação
+--------------------------------------------------------------------------------
+QC37:
+Status: ✅ CORRETO
+Esperado: Tesauro Brasileiro de Ciência da Informação.
+Obtido: Tesauro Brasileiro de Ciência da Informação.
+--------------------------------------------------------------------------------
+QC38:
+Status: ✅ CORRETO
+Esperado: Tabela de Áreas de Conhecimento/Avaliação - CAPES
+Obtido: Tabela de Áreas de Conhecimento/Avaliação - CAPES
+--------------------------------------------------------------------------------
+QC39:
+Status: ✅ CORRETO
+Esperado: 1972
+Obtido: 1972
+--------------------------------------------------------------------------------
+QC4:
+Status: ✅ CORRETO
+Esperado: 2005
+Obtido: 2005
+--------------------------------------------------------------------------------
+QC40:
+Status: ✅ CORRETO
+Esperado: Instituto Brasileiro de Informação em Ciência e Tecnologia
+Obtido: Instituto Brasileiro de Informação em Ciência e Tecnologia
+--------------------------------------------------------------------------------
+QC41:
+Status: ✅ CORRETO
+Esperado: LQS
+Obtido: LQS
+--------------------------------------------------------------------------------
+QC42:
+Status: ✅ CORRETO
+Esperado: Koha
+Obtido: Koha
+--------------------------------------------------------------------------------
+QC43:
+Status: ✅ CORRETO
+Esperado: 1995-11-09T00:00:00
+Obtido: 1995-11-09T00:00:00
+--------------------------------------------------------------------------------
+QC44:
+Status: ✅ CORRETO
+Esperado: 2021-11-12T00:00:00
+Obtido: 2021-11-12T00:00:00
+--------------------------------------------------------------------------------
+QC45:
+Status: ✅ CORRETO
+Esperado: COMUT; CCN; Bibliodata
+Obtido: COMUT; Bibliodata; CCN
+--------------------------------------------------------------------------------
+QC46:
+Status: ✅ CORRETO
+Esperado: biblioteca.ibict.br.
+Obtido: biblioteca.ibict.br.
+--------------------------------------------------------------------------------
+QC47:
+Status: ✅ CORRETO
+Esperado: biblioteca.ibict.br
+Obtido: biblioteca.ibict.br
+--------------------------------------------------------------------------------
+QC48:
+Status: ✅ CORRETO
+Esperado: Pública
+Obtido: Pública
+--------------------------------------------------------------------------------
+QC49:
+Status: ✅ CORRETO
+Esperado: Biblioteca Setorial
+Obtido: Biblioteca Setorial
+--------------------------------------------------------------------------------
+QC5:
+Status: ✅ CORRETO
+Esperado: 2022-05-11T00:00:00
+Obtido: 2022-05-11T00:00:00
+--------------------------------------------------------------------------------
+QC50:
+Status: ✅ CORRETO
+Esperado: Instituto Brasileiro de Informação em Ciência e Tecnologia
+Obtido: Instituto Brasileiro de Informação em Ciência e Tecnologia
+--------------------------------------------------------------------------------
+QC51:
+Status: ✅ CORRETO
+Esperado: Ibict
+Obtido: Ibict
+--------------------------------------------------------------------------------
+QC52:
+Status: ✅ CORRETO
+Esperado: 04.082.993/0001-49
+Obtido: 04.082.993/0001-49
+--------------------------------------------------------------------------------
+QC53:
+Status: ✅ CORRETO
+Esperado: Coordenação de Serviços Bibliográficos
+Obtido: Coordenação de Serviços Bibliográficos
+--------------------------------------------------------------------------------
+QC54:
+Status: ✅ CORRETO
+Esperado: COBIB
+Obtido: COBIB
+--------------------------------------------------------------------------------
+QC55:
+Status: ✅ CORRETO
+Esperado: (61)32176145
+Obtido: (61)32176145
+--------------------------------------------------------------------------------
+QC56:
+Status: ✅ CORRETO
+Esperado: Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar.; 70070-912; -47.8824090; -15.8024936; Brasília; Distrito Federal; Centro-Oeste; Brasil
+Obtido: Centro-Oeste; Distrito Federal; -15.8024936; 70070-912; -47.8824090; Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar.; Brasil; Brasília
+--------------------------------------------------------------------------------
+QC57:
+Status: ✅ CORRETO
+Esperado: Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar.; 70070-912; -47.8824090; -15.8024936; Brasília; Distrito Federal; Centro-Oeste; Brasil
+Obtido: Centro-Oeste; Distrito Federal; -15.8024936; 70070-912; -47.8824090; Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar.; Brasil; Brasília
+--------------------------------------------------------------------------------
+QC58:
+Status: ✅ CORRETO
+Esperado: Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar.; 70070-912; -47.8824090; -15.8024936; Brasília; Distrito Federal; Centro-Oeste; Brasil
+Obtido: Centro-Oeste; Distrito Federal; -15.8024936; 70070-912; -47.8824090; Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar.; Brasil; Brasília
+--------------------------------------------------------------------------------
+QC59:
+Status: ✅ CORRETO
+Esperado: Brasília
+Obtido: Brasília
+--------------------------------------------------------------------------------
+QC7:
+Status: ✅ CORRETO
+Esperado: Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict)
+Obtido: Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict)
+--------------------------------------------------------------------------------
+QC8:
+Status: ✅ CORRETO
+Esperado: 1; 1
+Obtido: 1
+--------------------------------------------------------------------------------
+QC9:
+Status: ✅ CORRETO
+Esperado: Quadrimestral
+Obtido: Quadrimestral
+--------------------------------------------------------------------------------
+
+RESUMO FINAL:
+Total: 59 | Corretas: 59 | Diferentes: 0 | Erros: 0
+Taxa de acerto: 100.0%

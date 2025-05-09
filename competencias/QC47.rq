@@ -1,0 +1,11 @@
+# QC47- Qual é o URL da biblioteca?
+# Resposta esperada: biblioteca.ibict.br"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?Pagina_Web WHERE {
+?bibloteca a ex:Biblioteca ;
+ex:denominacao ?Denominacao ;
+ex:paginaWeb ?Pagina_Web ;
+}

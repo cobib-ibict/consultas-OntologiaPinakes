@@ -1,0 +1,11 @@
+# QC5-Qual é a data de atualização de uma obra?
+# Resposta esperada: 2022-05-11T00:00:00"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?data_atualizacao WHERE {
+?obra a ex:Obra ;
+ex:tituloProprio ?titulo;
+ex:dataDeAtualizacao ?data_atualizacao .
+}

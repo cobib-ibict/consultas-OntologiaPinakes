@@ -1,0 +1,30 @@
+# QC56-Localização (país, região, estado, cidade, logradouro, CEP, latitude e longitude) da biblioteca?
+# Resposta esperada: Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar."
+# Resposta esperada: 70070-912"
+# Resposta esperada: -47.8824090"
+# Resposta esperada: -15.8024936"
+# Resposta esperada: Brasília"
+# Resposta esperada: Distrito Federal"
+# Resposta esperada: Centro-Oeste"
+# Resposta esperada: Brasil
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?logradouro ?cep ?longitude ?latitude ?cidade ?estado ?país ?regiao WHERE {
+?biblioteca a ex:Biblioteca ;
+ex:denominacao ?nome ;
+ex:hasAddress ?endereco .
+?endereco ex:logradouro ?logradouro .
+?endereco ex:cep ?cep .
+?endereco ex:longitude ?longitude .
+?endereco ex:latitude ?latitude .
+?endereco a ex:Endereco ;
+ex:isLocatedIn ?localidade .
+?localidade ex:nome ?cidade ;
+ex:hasFederativeUnit ?UF .
+?UF ex:nome ?estado ;
+ex:hasCountry ?país ;
+ex:hasRegion ?subdivisao .
+?subdivisao ex:nome ?regiao ;
+}

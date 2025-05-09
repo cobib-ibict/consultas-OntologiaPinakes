@@ -1,0 +1,12 @@
+# QC26- A qual área do conhecimento uma obra pertence?
+# Resposta esperada: Ciência da Informação"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?nome_area_conhecimento WHERE {
+?obra a ex:Obra ;
+ex:tituloProprio ?titulo ;
+ex:hasKnowledgeField ?area_conhecimento .
+?area_conhecimento ex:nome ?nome_area_conhecimento .
+}

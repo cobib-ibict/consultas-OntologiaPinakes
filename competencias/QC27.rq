@@ -1,0 +1,11 @@
+# QC27 -Qual é o código da área do conhecimento?
+# Resposta esperada: 60700010"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?codigo WHERE {
+?obra a ex:AreaDeConhecimento ;
+ex:nome ?Area_De_Conhecimento ;
+ex:codigo ?codigo .
+}

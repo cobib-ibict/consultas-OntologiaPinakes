@@ -1,0 +1,15 @@
+# QC20-Em qual biblioteca uma determinada publicação está disponível?
+# Resposta esperada: Lydia De Queiroz Sambaquy"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?nome_biblioteca WHERE {
+?biblioteca a ex:Biblioteca ;
+ex:denominacao ?nome_biblioteca;
+ex:hasCollection ?colecao .
+?colecao a ex:Colecao ;
+ex:contains ?obra .
+?obra a ex:Obra ;
+ex:tituloProprio ?publicacao.
+}

@@ -1,0 +1,12 @@
+# QC38 -Qual é a tabela de conhecimento utilizada como base para as áreas de conhecimento vinculadas à publicação seriada?
+# Resposta esperada: Tabela de Áreas de Conhecimento/Avaliação - CAPES"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?nome_Tabela WHERE {
+?obra a ex:AreaDeConhecimento ;
+ex:nome ?Area_De_Conhecimento ;
+ex:hasKnowledgeAreaTable ?tabela .
+?tabela ex:nome ?nome_Tabela .
+}

@@ -1,0 +1,13 @@
+# QC8 - Qual é a designação numérica de uma obra?
+# Resposta esperada: 1"
+# Resposta esperada: 1"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?Numero WHERE {
+?obra a ex:Obra ;
+ex:tituloProprio ?titulo ;
+ex:volume ?Volume ;
+ex:numero ?Numero .
+}

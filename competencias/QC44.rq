@@ -1,0 +1,12 @@
+# QC44 -Qual é a data de atualização do cadastro da biblioteca?
+
+# Resposta esperada: 2021-11-12T00:00:00"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?Data_de_Atualizacao WHERE {
+?bibloteca a ex:Biblioteca ;
+ex:denominacao ?Denominacao ;
+ex:dataAtualizacaoBiblioteca ?Data_de_Atualizacao ;
+}

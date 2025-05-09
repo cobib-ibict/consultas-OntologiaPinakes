@@ -1,0 +1,12 @@
+# QC43- Qual é a data de cadastro da biblioteca?
+
+# Resposta esperada: 1995-11-09T00:00:00"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?Data_de_Cadastro WHERE {
+?bibloteca a ex:Biblioteca ;
+ex:denominacao ?Denominacao ;
+ex:dataCadastroBiblioteca ?Data_de_Cadastro ;
+}

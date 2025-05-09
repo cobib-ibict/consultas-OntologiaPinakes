@@ -1,0 +1,12 @@
+# QC49-Qual é o tipo de biblioteca
+# Resposta esperada: Biblioteca Setorial"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?tipo_biblioteca WHERE {
+?biblioteca a ex:Biblioteca ;
+ex:denominacao ?nome ;
+ex:hasLibraryType ?tipo .
+?tipo ex:nome?tipo_biblioteca .
+}

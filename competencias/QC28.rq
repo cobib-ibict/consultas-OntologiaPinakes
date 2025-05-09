@@ -1,0 +1,14 @@
+# QC28-Qual é a nota geral de uma obra?
+# Resposta esperada: Disponível online, em texto integral de 1995
+- presente, no portal de periódicos da CAPES"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?nota WHERE {
+?obra a ex:Obra ;
+ex:tituloProprio ?titulo ;
+ex:hasNote ?tipo .
+?tipo rdfs:label ?tipo_nota .
+?tipo ex:notasGerais ?nota .
+}

@@ -1,0 +1,11 @@
+# QC14-Qual é o nível de catalogação de uma obra?
+# Resposta esperada: Nível Central"
+PREFIX ex: <http://www.semanticweb.org/kely/ontologies/2023/11/pinakes#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?nivel_catalogacao WHERE {
+?publicacao a ex:Obra ;
+ex:tituloProprio ?obra ;
+ex:nivelDeCatalogacao ?nivel_catalogacao .
+}
